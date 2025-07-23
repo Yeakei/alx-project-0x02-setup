@@ -1,1 +1,4 @@
-interface ITest {}
+interface CardProps {
+    title: string;
+    content: string;
+}
