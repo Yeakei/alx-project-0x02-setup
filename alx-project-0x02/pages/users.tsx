@@ -24,6 +24,8 @@ const Users = ({ users }: UsersPageProps) => {
     );
 };
 
+// getStaticProps()
+
 export const getStaticProps: GetStaticProps<UsersPageProps> = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
     const data: UserProps[] = await res.json();
