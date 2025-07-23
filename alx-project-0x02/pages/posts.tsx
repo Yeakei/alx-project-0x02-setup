@@ -1,5 +1,10 @@
+import Header from "@/components/layout/Header";
+
 export const Posts = () => {
-  return (
-    <div>Posts</div>
-  )
-}
+    return (
+        <>
+            <Header />
+            <div>Posts</div>
+        </>
+    );
+};
